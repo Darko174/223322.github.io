@@ -2,15 +2,19 @@
 body{
     font-family: 'Roboto', sans-serif;
     max-width: 1200px;
+    min-width: 200px;
     margin: 0 auto;
     background-color: #505050;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    line-height: 25px;
 }
 
 header, footer{
     background-color: #2F2F2F;
     color: white;
-    padding: 12px 12px;
-    font-size: 25px;
+    padding: 25px 12px;
+    font-size: 23px;
+    font-weight: 500;
 }
 .title{
     display: inline-block;
@@ -32,13 +36,24 @@ footer .phone{
     width: 100%;
 }
 main{
-    
+    background-color: #474646;
+    padding: 70px 40px;
+}
+section{
+    display: flex;
+    padding: 50px 40px;
 }
 .iconTick{
-
+    flex: 0 0 40px;
 }
 .description{
-
+    color: #fff;
+    font-size: 24px;
+    flex: 1 1 auto;
+    margin-left: 30px;
+}
+footer{
+    padding: 40px 0;
 }
 
 /* Large desktops and laptops */
@@ -48,39 +63,58 @@ main{
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+    main{
+        padding: 30px 20px;
+    }
 
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-
+    main{
+        padding: 30px 20px;
+    }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-
+    main{
+        padding: 30px 20px;
+    }
 }
-
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+    header{
+        padding: 12px 12px;
+    }
     header .phone, .title{
         display: block;
         width: 100%;
-        font-size:20px;
+        font-size: 17px;
     }
     header .phone{
         text-align: left;
+        font-size: 15px;
+    }
+    
+    section{
+        padding: 20px 20px ;
+        display: block;
+    }
+    .iconTick{
+        width: 70px;
+        height: 70px;
+        margin: 0 auto;
+    }
+    .description{
+        margin-top: 20px;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 0;
     }
 }
 
 /* Iphone 5 */
 @media (max-width: 320px) {
-    header .phone, .title{
-        display: block;
-        width: 100%;
-        font-size: 20px;
-    }
-    header .phone{
-        text-align: left;
-    }
+
 }
