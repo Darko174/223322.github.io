@@ -9,6 +9,7 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/styles.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
     </head>
 
     <body>
@@ -50,6 +51,14 @@
                 <span>+7(000)-000-00-00</span>
             </div>
         </footer>
+        <script>
+            const nodeList = [
+                document.querySelector(".title"),
+                ...document.querySelectorAll("section"),
+                ...document.querySelectorAll(".phone"),
+            ];
+            ScrollReveal().reveal(nodeList, { delay: 200, duration: 1000 });
+        </script>
     </body>
 
 </html>
