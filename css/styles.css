@@ -3,12 +3,14 @@ body{
     font-family: 'Roboto', sans-serif;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #505050;
 }
-header{
+
+header, footer{
     background-color: #2F2F2F;
     color: white;
     padding: 12px 12px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .title{
     display: inline-block;
@@ -24,7 +26,10 @@ footer .phone{
     text-align: center;
 }
 .banner{
-
+    width: 100%;
+}
+.banner img{
+    width: 100%;
 }
 main{
     
