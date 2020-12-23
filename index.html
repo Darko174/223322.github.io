@@ -35,27 +35,26 @@
                 <div class="iconTick">
                     <img src="./img/tick.svg" alt="tick">
                 </div>
-                <div class="description">Осуществляем кредитование под строительство
-                    современных инновационных домов.</div>
+                <div class="description" style="margin-top: 10px;">Методы кредитования строительства деревянного домостроения.</div>
             </section>
             <section>
                 <div class="iconTick">
                     <img src="./img/tick.svg" alt="tick">
                 </div>
-                <div class="description">Осуществляем строительство современных
-                    деревянных домов.<br>Ассоциация деревянного домостроения.</div>
+                <div class="description" style="margin-top: 10px;">Осуществляем строительство современных
+                    деревянных домов.</div>
             </section>
         </main>
         <footer>
-            <div class="phone">
-                <span>+7(000)-000-00-00</span>
-            </div>
+            <div class="info">Партнёр ассоциации деревянного домостроения</div>
+            <div class="phone">+7(000)-000-00-00</div>
         </footer>
         <script>
             const nodeList = [
                 document.querySelector(".title"),
-                ...document.querySelectorAll("section"),
                 ...document.querySelectorAll(".phone"),
+                ...document.querySelectorAll("section"),
+                document.querySelector(".info"),
             ];
             ScrollReveal().reveal(nodeList, { delay: 200, duration: 1000 });
         </script>

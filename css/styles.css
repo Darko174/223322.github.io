@@ -2,7 +2,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     max-width: 1200px;
-    min-width: 200px;
+    min-width: 233px;
     margin: 0 auto;
     background-color: #505050;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -26,9 +26,6 @@ header .phone{
     text-align: right;
     width: 49%;
 }
-footer .phone{
-    text-align: center;
-}
 .banner{
     width: 100%;
 }
@@ -37,8 +34,10 @@ footer .phone{
 }
 main{
     background-color: #474646;
-    padding: 70px 40px;
+    padding: 70px 10px 70px 120px;
+    margin-top: -10px;
 }
+
 section{
     display: flex;
     padding: 50px 40px;
@@ -53,8 +52,13 @@ section{
     margin-left: 30px;
 }
 footer{
-    padding: 40px 0;
+    padding: 56px 0;
+    text-align: center;
 }
+footer .phone{
+    margin-top: 10px;
+}
+
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
@@ -66,7 +70,6 @@ footer{
     main{
         padding: 30px 20px;
     }
-
 }
 
 /* Portrait tablets and small desktops */
@@ -74,12 +77,39 @@ footer{
     main{
         padding: 30px 20px;
     }
+    .description{
+        margin-top: 0;
+    }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
     main{
         padding: 30px 20px;
+    }
+}
+@media (max-width: 640px) {
+    footer{
+        padding: 40px 20px;  
+        font-size: 20px;
+    }
+}
+@media (max-width: 550px){
+    footer{
+        padding: 40px 43px;  
+        font-size: 20px;
+    }
+}
+@media (max-width: 535px){
+    footer{
+        padding: 40px 20px;  
+        font-size: 20px;
+    }
+}
+@media (max-width: 485px){
+    footer{
+        padding: 40px 20px;  
+        font-size: 20px;
     }
 }
 /* Portrait phones and smaller */
@@ -90,7 +120,6 @@ footer{
     header .phone, .title{
         display: block;
         width: 100%;
-        font-size: 17px;
     }
     header .phone{
         text-align: left;
@@ -111,6 +140,10 @@ footer{
         font-size: 17px;
         text-align: center;
         margin-left: 0;
+    }
+    footer{
+        padding: 40px 20px;  
+        font-size: 20px;
     }
 }
 
