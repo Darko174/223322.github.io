@@ -59,12 +59,10 @@ footer{
 footer .phone{
     margin-top: 10px;
 }
-
-
 /* Large desktops and laptops */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
 
-}
+} */
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -92,12 +90,6 @@ footer .phone{
 @media (max-width: 640px) {
     footer{
         padding: 40px 20px;  
-        font-size: 20px;
-    }
-}
-@media (max-width: 550px){
-    footer{
-        padding: 40px 43px;  
         font-size: 20px;
     }
 }
@@ -135,8 +127,7 @@ footer .phone{
         font-size: 20px;
     }
 }
-
 /* Iphone 5 */
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
 
-}
+} */
