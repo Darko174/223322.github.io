@@ -53,16 +53,29 @@ section{
     margin-left: 30px;
 }
 footer{
-    padding: 56px 0;
+    padding: 40px 0;
     text-align: center;
 }
 footer .phone{
     margin-top: 10px;
 }
-/* Large desktops and laptops */
-/* @media (min-width: 1200px) {
+.whatsapp, .viber{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    display: inline-block;
+}
+.socialNetworks-icons{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 
-} */
+
+
+
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -70,7 +83,6 @@ footer .phone{
         padding: 30px 20px;
     }
 }
-
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
     main{
@@ -80,7 +92,6 @@ footer .phone{
         margin-top: 0;
     }
 }
-
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
     main{
@@ -127,7 +138,3 @@ footer .phone{
         font-size: 20px;
     }
 }
-/* Iphone 5 */
-/* @media (max-width: 320px) {
-
-} */
