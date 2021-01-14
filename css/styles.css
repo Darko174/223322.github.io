@@ -27,10 +27,7 @@ header .phone{
     text-align: right;
     width: 49%;
 }
-.banner{
-    width: 100%;
-}
-.banner img{
+.banner, .banner img{
     width: 100%;
 }
 main{
@@ -38,10 +35,10 @@ main{
     padding: 70px 10px 70px 120px;
     margin-top: -10px;
 }
-
 section{
     display: flex;
     padding: 50px 40px;
+    align-items: center;
 }
 .iconTick{
     flex: 0 0 40px;
@@ -52,6 +49,9 @@ section{
     flex: 1 1 auto;
     margin-left: 30px;
 }
+.insurance-catalog {
+    text-decoration: underline;
+}
 footer{
     padding: 40px 0;
     text-align: center;
@@ -59,23 +59,22 @@ footer{
 footer .phone{
     margin-top: 10px;
 }
-.whatsapp, .viber{
-    height: 50px;
-    width: 50px;
+footer img{
+    height: 100%;
+}
+.messengers{
+    height: 40px;
+    width: 45px;
     margin: 0 auto;
     display: inline-block;
 }
-.socialNetworks-icons{
+.socialNetworks{
     margin-top: 10px;
 }
 a{
     text-decoration: none;
     color: white;
 }
-
-
-
-
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
